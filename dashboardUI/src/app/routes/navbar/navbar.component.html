@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 sticky-top">
+    <div class="container mt-3 mb-3">
+        <a class="navbar-brand navText">LOGO ICON</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active navText" aria-current="page" routerLink="dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active navText dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            User
+                        </a>
+                        <ul class="dropdown-menu"  >
+                            <li><a class="dropdown-item navText" routerLink="user/user-table" >User Table</a></li>
+                            <li><a class="dropdown-item navText" routerLink="user/create-user">Create User</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navText " routerLink="chart">Chart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

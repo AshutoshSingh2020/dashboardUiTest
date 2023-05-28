@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// mat-table header color
+.mat-mdc-table thead {
+    background-color: #787fec6e !important;
+}
+
+// mat table option menu customized
+.mdc-data-table__cell, .mdc-data-table__header-cell {
+    padding: 0 16px 0 0px;
+}
+
+// mat-form-field width 100%
+mat-form-field{
+    width:100%;
+}
+
+// mat-form-field shrinked
+.mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.mat-mdc-form-field-infix {
+    min-height: 0px !important;
+}
+
+// background-color for whole body
+.mat-typography {
+    background-color: #787fec6e;
+}
